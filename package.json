@@ -1,0 +1,19 @@
+{
+  "name": "volantjs-poc",
+  "version": "0.0.1",
+  "description": "A framework from scaffolding TypeScript microservices ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volantjs/volantjs-poc.git"
+  },
+  "author": "Volantjs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volantjs/volantjs-poc/issues"
+  },
+  "homepage": "https://github.com/volantjs/volantjs-poc#readme"
+}
