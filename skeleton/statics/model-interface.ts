@@ -1,4 +1,4 @@
-export interface Model<Attributes, Instance> {
+export interface ModelInterface<Attributes, Instance> {
 
     findAll(): Promise<Instance[]>;
 
