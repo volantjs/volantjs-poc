@@ -25,7 +25,7 @@ export abstract class DaoInterface<A, I> {
      * id or null if the instance is not found.
      * @param id: Identifier of the entity instance.
      */
-    async findByIdfindById(id: number | string): Promise<I | null> {
+    async findById(id: number | string): Promise<I | null> {
         return await this.model.findById(id);
     }
 
