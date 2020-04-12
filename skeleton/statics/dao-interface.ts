@@ -21,7 +21,7 @@ export abstract class DaoInterface<A, I> {
     }
 
     /**
-     * findByIdfindById returns an entity instance identified by
+     * findById returns an entity instance identified by
      * id or null if the instance is not found.
      * @param id: Identifier of the entity instance.
      */
