@@ -1,7 +1,7 @@
 import { DaoInterface } from "../statics";
 
-export abstract class GenericService<
-  TDto extends { id?: number | undefined}, 
+export abstract class GenericEntityService<
+  TDto extends { id?: number | string | undefined}, 
   TAttributes, 
   TInterface
 > {
