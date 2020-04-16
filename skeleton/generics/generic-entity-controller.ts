@@ -9,10 +9,16 @@ export abstract class GenericEntityController<
     protected service: GenericEntityService<TDto, TAttributes, TInstance>;
 
     /**
-     *
+     * constructor instantiates a new instance of the EntityController.
      */
     constructor(service: GenericEntityService<TDto, TAttributes, TInstance>) {
       this.service = service;
+
+      this.getAll = this.getAll.bind(this);
+      this.getOneById = this.getOneById.bind(this);
+      this.craete = this.craete.bind(this);
+      this.update = this.update.bind(this);
+      this.delete = this.delete.bind(this);
     }
 
     public async getAll(req: Request, res: Response, next: NextFunction) {
